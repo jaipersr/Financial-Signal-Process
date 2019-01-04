@@ -7,7 +7,7 @@ The code below uses the binomial asset pricing model to determine the replicatin
 portfolio by both using the martingale approach and the replicating portfolio strategy.
 Tables of the expected payoff (V) at time N as well as at time 0 are generated for 
 various probabilities including the risk neutral probability. Random walks were generated 
-by Montel Carlo methods. The delta hedging factors and stock prices are plotted 
+by Monte Carlo methods. The delta hedging factors and stock prices are plotted 
 for the last 3 steps of a specific walk.
 """
 import random
